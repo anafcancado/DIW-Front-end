@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site bolsas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg bg-rosa-claro" style="z-index: 999;"> 
+            <div class="container">
+                <a class="navbar-logo" href="#"> 
+                    <img src="images/logo.png" alt="Logo-bolsa" width="50" height="50">
+                </a>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">All Bolsas</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Rastrear Pedido</a>
+                            </li>  
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container-fluid p-0">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/carrossel1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carrossel2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carrossel3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div> 
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+
+<section>
+  <section class="cards-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mt-3" style="width: 15rem;">
+            <img src="images/bolsa1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Jacquemus mini R$3.088</h5>
+              <p class="card-text">Rosa fúcsia, couro, monograma em tom dourado, alça de mão única redonda, alça de ombro removível, parte superior dobrável com fecho magnético</p>
+              <a href="detalhe.html" class="btn btn-secondary">Adicionar à sacola</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-3" style="width: 15rem;">
+            <img src="images/bolsa2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa YSL Lock R$19.370</h5>
+              <p class="card-text">Bolsa YSL Lock de couro preta Saint Laurent. Com uma alça de ombro, aba com fecho de encaixe, compartimentos internos e possui um deisgn estruturado moderno.</p>
+              <a href="detalhe.html" class="btn btn-secondary">Adicionar à sacola</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-3" style="width: 15rem;">
+            <img src="images/bolsa3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Prada Panier R$21.000</h5>
+              <p class="card-text">Rosa fúcsia, couro, monograma em tom dourado, alça de mão única redonda, alça de ombro removível, parte superior dobrável com fecho magnético</p>
+              <a href="detalhe.html" class="btn btn-secondary">Adicionar à sacola</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mt-3" style="width: 15rem;">
+            <img src="images/bolsa4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa YSL Cassandre R$13.064</h5>
+              <p class="card-text">Verde sálvia, couro, detalhe matelassê, letreiro com logo, parte superior dobrável, fecho deslizante, detalhe de corrente, compartimento interno para cartão e bolso interno com zíper.</p>
+              <a href="detalhe.html" class="btn btn-secondary">Adicionar à sacola</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-3" style="width: 15rem;">
+            <img src="images/bolsa5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Prada tote R$27.500</h5>
+              <p class="card-text">Bolsa tote Prada média branco de couro saffiano, Prada. Com alças de mão arredondadas, etiqueta em couro, placa dourada com o logo e alça de ombro ajustável e removível.</p>
+              <a href="detalhe.html" class="btn btn-secondary">Adicionar à sacola</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-3" style="width: 15rem;">
+            <img src="images/bolsa6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Gucci tiracolo R$22.090</h5>
+              <p class="card-text">Bolsa tiracolo Blondie GUCCI. Com marrom, couro, alça de ombro de corrente ajustável, fecho por aba frontal, ferragem dourada, logo G, compartimento principal e bolso interno com zíper.</p>
+              <a href="detalhe.html" class="btn btn-secondary">Adicionar à sacola</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <aside class="sidebar">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <aside>
+      <div class="card" style="width: 16rem;">
+        <div class="card-body">
+          <h5 class="card-title">Itens mais avaliados</h5>
+          <p class="card-text">Alguns dos nossos produtos mais acessados e avaliados:</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Prada mini re-nylon
+            <img src="images/maisav1.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">R$4.700</h5>
+            <div class="icon"><span><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span></div>
+          </li>
+          <li class="list-group-item">Chloe tote woody
+            <img src="images/maisav2.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">R$11.442</h5>
+            <div class="icon"><span><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star-half-outline"></ion-icon></span></div>
+          </li>
+          <li class="list-group-item">Armani tote logo
+            <img src="images/maisav3.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">R$1.350</h5>
+            <div class="icon"><span><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span></div>
+          </li>
+        </ul>
+        <div class="card-body">
+          <a href="vermais.html" class="card-link">Ver mais</a>
+        </div>
+      </div>
+    </aside>
+  </aside>
+</section>
+
+
+<section>
+  <section>
+    <div class="marcas">
+      <img src="images/guccipng.png">
+      <img src="images/armanipng.png">
+      <img src="images/pradapng.png">
+      <img src="images/lv.png">
+      <img src="images/chanelpng.png">
+    </div>
+  </section>
+
+  <aside class="newsletter">
+    <div class="card" style="width: 16rem;">
+      <div class="card-body">
+        <h5 class="card-title">Newsletter</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Inscreva-se para receber novidades</h6>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </aside>
+</section>
+</main>
+
+<footer>
+  <section class="contato">
+    <div class="meio-contato">
+      <h3>Contato</h3>
+      <ul style="list-style-type: none;">
+        <li><a href="#"><div class="icon"><span><ion-icon name="location-outline"></ion-icon></span> Rua One Direction N°123</a></li>
+        <li><a href="#"><div class="icon"><span><ion-icon name="mail-outline"></ion-icon></span> anafcancado8@gmail.com</a></li>
+        <li><a href="#"><div class="icon"><span><ion-icon name="call-outline"></ion-icon></span> (01)1234-5678</a></li>
+      </ul>
+    </div>
+    <div class="meio-contato">
+      <h3>Método de Pagamento</h3>
+      <ul style="list-style-type: none;">
+        <li><a href="#"><div class="icon"><span><ion-icon name="card-outline"></ion-icon> </span> Cartão de Crédito</a></li>
+        <li><a href="#"><div class="icon"><span><ion-icon name="logo-paypal"></ion-icon> </span>Boleto</a></li>
+        <li><a href="#"><div class="icon"><span><ion-icon name="cash-outline"></ion-icon> </span>Pix</a></li>
+      </ul>
+    </div>
+    <div class="meio-contato">
+      <h3>Nossas redes sociais</h3>
+      <ul style="list-style-type: none;">
+        <li><a href="#"><div class="icon"><span><ion-icon name="logo-instagram"></ion-icon></span> @allbolsas</a></li>
+        <li><a href="#"><div class="icon"><span><ion-icon name="logo-tiktok"></ion-icon></span> @allbolsas.tiktok</a></li>
+        <li><a href="#"><div class="icon"><span><ion-icon name="logo-twitter"></ion-icon></span> @bolsasall</a></li>
+      </ul>
+    </div>
+    <div class="meio-contato">
+      <h3>Como funcionam</h3>
+      <ul style="list-style-type: none;">
+        <li><a href="#"><div class="icon"><span><ion-icon name="wallet-outline"></ion-icon></span> Cupons</a></li>
+        <li><a href="#"><div class="icon"><span><ion-icon name="pricetags-outline"></ion-icon></span> Descontos</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="last-text">Copyright © 2023 ALLBOLSAS BR Limited. Todos os direitos reservados. Ana Fernanda.</div>
+</footer>
+
+</body>
+</html>

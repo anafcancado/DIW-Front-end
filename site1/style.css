@@ -1,0 +1,146 @@
+.bg-rosa-claro {
+    background-color: #f4e8eb; /* substitua pelo código da cor desejada */
+  }
+
+.navbar-brand{
+    font-weight: bold;
+    color: #444242;
+}
+
+.carousel-item img {
+  max-height: 550px;
+}
+
+
+.cards-section {
+  
+  width: 75%;
+  float: left;
+  margin-bottom: 1rem;
+
+}
+
+/* Estilos para telas maiores */
+.sidebar {
+  width: 20%;
+  float: right;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 1092px) {
+  .sidebar {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    
+  }
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 985px) {
+  .cards-section {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    
+  }
+}
+
+.marcas img{
+  width: 140px;
+  height: auto;
+  background-color: rgb(249, 221, 224);
+  margin-right: 2rem;
+  margin-top: 6rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.marcas{
+  width: 75%;
+  float: left;
+  cursor: pointer;
+
+}
+
+/* Estilos para telas maiores */
+.newsletter {
+  width: 20%;
+  float: right;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contato{
+  background: black;
+  display: flex;
+  gap: 5ram;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem;
+  margin-top: 4rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+  .contato {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    display: flex;
+
+  }
+}
+
+.meio-contato h3{
+  color: #fff;
+  font-size: 23px;
+  margin-bottom: 1rem;
+  margin-top: 1.6rem;
+  margin-left: 4rem;
+  
+}
+
+.meio-contato li a{
+  
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 4rem;
+  
+}
+
+.last-text{
+  text-align: center;
+  background-color: #fff;
+  color: #111;
+}
+
+
+
+/* Estilos para telas menores */
+@media screen and (max-width: 1107px) {
+  .newsletter {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+}
+
+
+
+
